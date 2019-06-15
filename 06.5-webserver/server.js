@@ -5,8 +5,8 @@ const express = require('express');
 const app = express();
 
 
-app.get('/nodeapp_05', (req, res) => {
-  res.send('Hola Mundo Nodeapp_05');
+app.get('/app_02', (req, res) => {
+  res.send('Hola Mundo app_02');
 });
  
 app.listen(port);

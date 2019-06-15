@@ -1,15 +1,15 @@
 {
-  "name": "06.1-webserver",
+  "name": "app_01",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "App 01",
+  "main": "app.js",
   "scripts": {
-    "start": "node server.js",
+   "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+    "dependencies": {
     "express": "^4.17.1"
   }
 }
